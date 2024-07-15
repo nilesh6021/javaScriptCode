@@ -1,22 +1,18 @@
-const accountId = 144553
-let accountEmail = "hitesh@google.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
-let accountState;
-
-// accountId = 2 // not allowed
-
-
-accountEmail = "hc@hc.com"
-accountPassword = "21212121"
-accountCity = "Bengaluru"
-
-console.log(accountId);
-
-/*
-Prefer not to use var
-because of issue in block scope and functional scope
-*/
+const empid =1234;
+let fname ="nilesh";
+var email="nil@gamail.com";
+var password ="909090";
+city ="kolhapure";
+let statename;
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+//const values can't change 
+// empid = 2 // not allowed
+fname ="Nilesh Patil";
+email="nileshpatil@gamail.com";
+password ="609080";
+city ="Hydrabad";
+
+console.log(empid,fname,email,password,city,statename);
+
+console.table([empid,fname,email,password,city,statename]);
