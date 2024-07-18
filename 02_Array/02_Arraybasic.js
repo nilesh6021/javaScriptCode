@@ -24,3 +24,11 @@ const fname ="NILESH";
 console.log(Array.isArray(fname))//false
 
 console.log(Array.from(fname))//['N', 'I', 'L', 'E', 'S', 'H']
+
+console.log(Array.from({NAME:"PATIL"}))
+
+let a =10;
+let b=20;
+let c =30;
+
+console.log(Array.of(a,b,c,))//[10, 20, 30]
