@@ -37,11 +37,17 @@
 // console.log(num.slice(4,6))
 
 const num1 =['A','B','C','D','E','F','G','H','I']
-console.log(num1.slice(0,3))
+// console.log(num1.slice());
+// console.log(num1);
+//console.log(num1.slice(4))
 // console.log(num1.slice(3))
-// console.log(num1.slice(3,6))
+ console.log(num1.slice(1,5))
+ console.log("1",num1)
+ console.log(num1.splice(1,5))
+ console.log("2",num1)
 
 
 const Yearlist =['JAN','FEB','MAR','APR','MAY','JUN','JUL'];
-console.log(Yearlist.splice())
-console.log(Yearlist)
+// console.log(Yearlist.splice())
+// console.log(Yearlist)
+//console.log(Yearlist.splice(1,5))
