@@ -4,5 +4,5 @@ const course= {
     courseInstructor:"hitesh"
 }
 
-const {courseInstructor}=course
-console.log(courseInstructor)
+const {courseInstructor:instructor}=course
+console.log(instructor)
