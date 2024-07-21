@@ -8,15 +8,22 @@
 // // marval_hero.concat(dc_hero);
 // // console.log(marval_hero);
 
+
+//----concat-----//
 // const allHero =marval_hero.concat(dc_hero)
-// console.log(allHero)//['Ironman', 'Thor', 'Spiderman', 'CaptanA', 'Batman', 'Superman', 'flash', 'Joker']
-// // console.log(allHero.join())
+// console.log(allHero)
+//==>['Ironman', 'Thor', 'Spiderman', 'CaptanA', 'Batman', 'Superman', 'flash', 'Joker']
 
+ //console.log(allHero.join())
+
+
+//------spread-----//
 // const all_in_one =[...marval_hero,...dc_hero];
-// console.log(all_in_one)////['Ironman', 'Thor', 'Spiderman', 'CaptanA', 'Batman', 'Superman', 'flash', 'Joker']
+// console.log(all_in_one)
+//==>['Ironman', 'Thor', 'Spiderman', 'CaptanA', 'Batman', 'Superman', 'flash', 'Joker']
 
 
-// const complexarray =[1,2,3,4,5,[6,7,8],[9,8,6,[8,0,4],10]]
+//const complexarray =[1,2,3,4,5,[6,7,8],[9,8,6,[8,0,4],10]]
 // const onearray =complexarray.flat(Infinity)
 // console.log(onearray);
 
@@ -30,5 +37,4 @@ console.log(Array.from({NAME:"PATIL"}))
 let a =10;
 let b=20;
 let c =30;
-
 console.log(Array.of(a,b,c,))//[10, 20, 30]
