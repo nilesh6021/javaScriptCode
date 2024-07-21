@@ -1,0 +1,16 @@
+function saymyname (){
+    console.log("N"),
+    console.log("I"),
+    console.log("L"),
+    console.log("E"),
+    console.log("S"),
+    console.log("H")
+}
+//saymyname()
+function addtwonumber (number1,number2){
+    console.log(number1+number2)
+
+}
+addtwonumber(2,3)//5
+const result =addtwonumber(4,4)//8
+console.log(result)//undefined
