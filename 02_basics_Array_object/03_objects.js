@@ -25,4 +25,11 @@ User.email ="nilesh@gmail.com"
 //console.log(User)
 
 //functions//
-User
+User.greeting1 = function(){
+    console.log("Hello wellcome");
+}
+User.greeting2 = function(){
+    console.log(`Hello wellcome,${this.name}`);
+}
+console.log(User.greeting1());
+console.log(User.greeting2());
